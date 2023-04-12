@@ -7,11 +7,10 @@ import SearchBar from '../layout/search.bar';
 import AddBtn from '../layout/add.btn';
 import Trip from '../trips/main.trip';
 import AddTripModal from '../trips/add.trip';
-
-
 import Header from '../header/header.component';
 import { BrowserRouter } from 'react-router-dom';
-import M from 'materialize-css/dist/js/materialize.min.js';
+import  M from 'materialize-css/dist/js/materialize.min.js';
+import 'materialize-css/dist/css/materialize.min.css';
 
 
 const App: React.FC = () => {

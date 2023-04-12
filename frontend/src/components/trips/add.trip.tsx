@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import M from 'materialize-css/dist/js/materialize.min.js';
+import 'materialize-css/dist/js/materialize.min.js'
 
 
 
@@ -7,7 +7,7 @@ const AddTripModal = () => {
     
  
   return (
-    <div id='add-log-modal' className='modal' style={modalStyle}>
+    <div id='add-log-modal' className='modal' >
         <div className='modal-content'>
             <h4>Enter System Log</h4>
             <div className='row'>
